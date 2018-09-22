@@ -45,22 +45,22 @@ void __fastcall TForm1::AdvStringGrid1GetEditorType(TObject *Sender,
 void __fastcall TForm1::AdvStringGrid1CanEditCell(TObject *Sender,
       int ARow, int ACol, bool &CanEdit)
 {
-        //ÉèÖÃÄ³µ¥Ôª¸ñÊÇ·ñ¿ÉÒÔ±à¼­   £¬½øÈë±à¼­×´Ì¬Ö®Ç°´¥·¢     
+        //è®¾ç½®æŸå•å…ƒæ ¼æ˜¯å¦å¯ä»¥ç¼–è¾‘   ï¼Œè¿›å…¥ç¼–è¾‘çŠ¶æ€ä¹‹å‰è§¦å‘     
 }
 //---------------------------------------------------------------------------
 
 void __fastcall TForm1::AdvStringGrid1EditCellDone(TObject *Sender,
       int ACol, int ARow)
 {
-        //µ¥Ôª¸ñ±à¼­Íê³ÉÊÂ¼ş £¬±à¼­×´Ì¬ÍË³öÊ±´¥·¢
+        //å•å…ƒæ ¼ç¼–è¾‘å®Œæˆäº‹ä»¶ ï¼Œç¼–è¾‘çŠ¶æ€é€€å‡ºæ—¶è§¦å‘
 }
 //---------------------------------------------------------------------------
 
 void __fastcall TForm1::AdvStringGrid1CellValidate(TObject *Sender,
       int ACol, int ARow, AnsiString &Value, bool &Valid)
-                                 // ¸ü¸ÄºóÖµ £¬ ÊÇ·ñÔÊĞí¸ü¸Ä
+                                 // æ›´æ”¹åå€¼ ï¼Œ æ˜¯å¦å…è®¸æ›´æ”¹
 {
-        //µ¥Ôª¸ñÄÚÈİ¸ü¸ÄÊÂ¼ş£¬µ¥Ôª¸ñÖµÓĞ±ä»¯Ê±´¥·¢
+        //å•å…ƒæ ¼å†…å®¹æ›´æ”¹äº‹ä»¶ï¼Œå•å…ƒæ ¼å€¼æœ‰å˜åŒ–æ—¶è§¦å‘
 }
 //---------------------------------------------------------------------------
 
